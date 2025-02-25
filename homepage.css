@@ -1,0 +1,17 @@
+.header{
+    padding: 30px;
+    text-align: center;
+    background: #1abc9c;
+    color: black;
+    font-size: 30px;
+}
+.options{
+    text-align: right;
+    color: black;
+    font-size: 20px;
+}
+.footer{
+    text-align: right;
+    color: black;
+    font-size: 20px;
+}
