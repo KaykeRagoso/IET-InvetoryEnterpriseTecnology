@@ -1,15 +1,45 @@
 .header{
-    padding: 30px;
+    padding-top: 10px;
     text-align: center;
     background: #134983;
     color: white;
-    font-size: 30px;
-    
+    font-size: 25px;
+    padding: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
 }
-.options{
+
+.optionsHardware{
     text-align: right;
+    margin-top: 22vh;
     color: black;
     font-size: 20px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+.optionsRede{
+    text-align: right;
+    margin-top: 6vh;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: 0px;
+    right: 58px;
+}
+.rodape{
+    text-align: center; 
+    padding: 10px;
+    background: #134983; 
+    color: white; 
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 /*Quebra de Linha no sistema de lista de Hardware*/
@@ -17,9 +47,12 @@ nav {
     border: 2px solid black;
     padding: 10px;
     display: inline-block;
+    right: 0;
 }
-nav a {
+nav a{
+    background-color: white;
+    color: #134983;
     display: block;
     margin-bottom: 5px;
-    text-align: left;
+    text-align: center;
 }
